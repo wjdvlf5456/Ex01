@@ -14,3 +14,8 @@ print(c)
 #16진수
 d = 0x101
 print(d)
+
+#10진수 -> 2진수,8진수,16진수
+print(bin(5))
+print(oct(65))
+print(hex(257))
