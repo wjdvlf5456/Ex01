@@ -19,3 +19,10 @@ print(x,y,z)
 #값 교환하기
 e,f = f,e
 print(e,f)
+
+#변수에 새로운 값을 할당하면 기존의 값을 잃어버리고 새로운 값으로 치환된다.
+var01 = 1
+print(var01)
+
+var01 = "hello"
+print(var01)
