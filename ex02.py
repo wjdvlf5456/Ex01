@@ -26,3 +26,6 @@ print(var01)
 
 var01 = "hello"
 print(var01)
+
+#var01의 자료형은 'str'
+print(type(var01))
