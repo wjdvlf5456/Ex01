@@ -19,3 +19,7 @@ print(d)
 print(bin(5))
 print(oct(65))
 print(hex(257))
+
+#파이썬에서는 long형이 없고 int형이 된다.
+e = 2**1024
+print(e)
