@@ -23,5 +23,22 @@ print(s.startswith("I Like",2))     #입력한 숫자부터 입력한 문자로 
 print(s.endswith("Also"))           #입력한 문자로 끝나는지 확인
 print(s.endswith('Java', 0 , 26))   #endswith(끝나는문자, 문자열의시작, 문자열의끝)
 
+s = '    spam and ham     '
+print(s.strip())                    #공백제거
+print(s.rstrip())                   #우측 공백 제거
+print(s.lstrip())                   #좌측 공백 제거
+
+s='<><abc><><defg><><>'
+print(s.strip('<>'))                #출력결과: abc><><defg
+
+s = 'Hello Java Java java'
+print(s.replace( 'Java', 'Python')) #(교체할 문자, 교체 후 문자)
+
+s = 'king and queen'
+print(s.center(60))                 #s.center(공백포함하여 글자길이)
+print(s.center(60, '-'))            #양 옆에 우측에 있는 글자를 추가
+print(s.ljust(60, '-'))             #우측에 추가    s는 좌측에 위치
+print(s.rjust(60, '-'))             #좌측에 추가    s는 우측에 위치
+
 
 
